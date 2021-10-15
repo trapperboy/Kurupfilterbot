@@ -79,13 +79,13 @@ async def start(bot, message):
                         f_caption=CUSTOM_FILE_CAPTION.format(file_name=title, file_size=size, file_caption=f_caption)
                     except Exception as e:
                         print(e)
-                        f_caption=f_caption
+                        f_caption=f"{files.file_name}" /n@keralamoviesn ",
                 if f_caption is None:
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🎖 DEPLOY YOURS 🎖', url=f'{TUTORIAL}')
-                    ]
+                        InlineKeyboardButton('🎖 join channel 🎖', url="https://t.me/keralamoviesn"
+                  
                     ]
                 await bot.send_cached_media(
                     chat_id=message.from_user.id,
